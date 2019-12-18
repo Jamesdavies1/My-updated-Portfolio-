@@ -2,13 +2,42 @@ body{
     background-image: url("./images/ep_naturalwhite/ep_naturalwhite.png");
 }
 
+.jumbotron{
+    background-image: url("./images/ep_naturalwhite/ep_naturalwhite.png");
+    text-align: center;
+}
 
+.mb-3{
+    background-image: url("./images/ep_naturalwhite/ep_naturalwhite.png");
+}
 
+.card-title, .card-subtitle{
+    text-align: center;
+}
+
+.card-text{
+    padding-bottom: 20px;
+}
+
+.list-group{
+    text-align: center;
+}
+
+.card{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.copyright{
+padding-top: 15px;
+}
 
 .footer {
+    height: 7%;
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-color: white;
+    background-image: url("./images/ep_naturalwhite/ep_naturalwhite.png");
+}
