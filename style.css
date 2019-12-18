@@ -1,0 +1,14 @@
+body{
+    background-image: url("./images/ep_naturalwhite/ep_naturalwhite.png");
+}
+
+
+
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: white;
