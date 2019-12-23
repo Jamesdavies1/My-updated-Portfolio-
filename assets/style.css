@@ -22,22 +22,27 @@ margin-bottom: 5%;
 }
 
 @media (max-width:800px){
-.project-one, .project-two, .project-three, .project-four{
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    margin-bottom: 15px;
+    .project-one, .project-two, .project-three, .project-four{
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        margin-bottom: 15px;
 
-}
+    }
 }
 
 body{
     padding-bottom: 100px;
-    background-image: url("./images/ep_naturalwhite/ep_naturalwhite.png");
+    background-image: url("./images/white_plaster/white_plaster.png");
 }
 
-p{
+h1, h5, h3, a{
+    font-family: 'Roboto Mono', monospace;
+}
+
+p, .list-group-item{
     text-align: center;
+    font-family: 'Quattrocento Sans', sans-serif;
 }
 
 .nav{
@@ -52,18 +57,22 @@ p{
 }
 
 .jumbotron{
-    background-image: url("./images/ep_naturalwhite/ep_naturalwhite.png");
+    background-image: url("./images/white_plaster/white_plaster.png");
     text-align: center;
 }
 
 .mb-3{
     margin: 0 auto;
     padding: 20px;
-    background-image: url("./images/ep_naturalwhite/ep_naturalwhite.png");
+    background-image: url("./images/white_texture/white_texture.png");
 }
 
 .card-title, .card-subtitle, .card-link{
     text-align: center;
+}
+
+.card-text{
+    padding-top: 20px;
 }
 
 .card-text{
@@ -83,7 +92,7 @@ p{
 }
 
 .finalcard{
-margin-bottom: 80px;;
+    margin-bottom: 80px;;
 }
 
 .breakcontact{
@@ -91,7 +100,7 @@ margin-bottom: 80px;;
 }
 
 .copyright{
-padding-top: 15px;
+    padding-top: 15px;
 }
 
 .footer {
@@ -101,7 +110,7 @@ padding-top: 15px;
     bottom: 0;
     width: 100%;
     text-align: center;
-    background-image: url("./images/ep_naturalwhite/ep_naturalwhite.png");
+    background-image: url("./images/white_plaster/white_plaster.png");
     border-style: solid;
     border-left: 0;
     border-right: 0;
