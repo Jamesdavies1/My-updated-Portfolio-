@@ -1,3 +1,35 @@
+@media (min-width:800px){
+    .project-one{
+float: left;
+margin-left: 15%;
+margin-bottom: 5%;
+    }
+    .project-two{
+        float: right;
+        margin-right: 15%;
+        margin-bottom: 5%;
+    }
+    .project-three{
+        float: left;
+        clear: both;
+        margin-left: 15%;
+    }
+    .project-four{
+        float: right;
+        margin-right: 15%;
+    }
+}
+
+@media (max-width:800px){
+.project-one, .project-two, .project-three, .project-four{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 15px;
+
+}
+}
+
 body{
     background-image: url("./images/ep_naturalwhite/ep_naturalwhite.png");
 }
@@ -23,6 +55,9 @@ p{
 }
 
 .mb-3{
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
     background-image: url("./images/ep_naturalwhite/ep_naturalwhite.png");
 }
 
@@ -42,10 +77,6 @@ p{
     text-align: center;
 }
 
-.project{
-margin-left: 11%;
-margin-bottom: 5%;
-}
 
 .finalcard{
 margin-bottom: 80px;;
