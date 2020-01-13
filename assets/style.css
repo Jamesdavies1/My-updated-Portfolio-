@@ -18,11 +18,16 @@ margin-bottom: 5%;
         float: right;
         margin-right: 20%;
     }
+    .project-five{
+        float: left;
+        clear: both;
+        margin-left: 20%;
+    }
  
 }
 
 @media (max-width:800px){
-    .project-one, .project-two, .project-three, .project-four{
+    .project-one, .project-two, .project-three, .project-four, .project-five{
         width: 80%;
         margin: 0 auto;
         padding: 20px;
@@ -87,7 +92,7 @@ p, .list-group-item{
     text-align: center;
 }
 
-.project-one, .project-two, .project-three, .project-four, .list-group-item{
+.project-one, .project-two, .project-three, .project-four, .project-five, .list-group-item{
     background-image: url(./images/white_texture/white_texture.png);
 }
 
