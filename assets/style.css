@@ -1,4 +1,4 @@
-@media (min-width:800px){
+@media (min-width:960px){
     .project-one{
 float: left;
 margin-left: 20%;
@@ -17,17 +17,24 @@ margin-bottom: 5%;
     .project-four{
         float: right;
         margin-right: 20%;
+        margin-bottom: 5%;
     }
     .project-five{
         float: left;
-        clear: both;
         margin-left: 20%;
+        margin-bottom: 10%;
+        clear: both;
+    }
+    .project-six{
+        float: right;
+        margin-right: 20%;
+        margin-bottom: 10%;
     }
  
 }
 
 @media (max-width:800px){
-    .project-one, .project-two, .project-three, .project-four, .project-five{
+    .project-one, .project-two, .project-three, .project-four, .project-five, .project-six{
         width: 80%;
         margin: 0 auto;
         padding: 20px;
@@ -92,7 +99,7 @@ p, .list-group-item{
     text-align: center;
 }
 
-.project-one, .project-two, .project-three, .project-four, .project-five, .list-group-item{
+.project-one, .project-two, .project-three, .project-four, .project-five, .project-six, .list-group-item{
     background-image: url(./images/white_texture/white_texture.png);
 }
 
@@ -100,8 +107,12 @@ p, .list-group-item{
     margin-bottom: 80px;;
 }
 
-.breakcontact{
+.brandstatement{
     margin-bottom: 70px;
+}
+
+.breakcontact{
+    margin-bottom: 50px;
 }
 
 .copyright{
