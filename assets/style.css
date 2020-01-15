@@ -1,36 +1,38 @@
 @media (min-width:960px){
     .project-one{
-float: left;
-margin-left: 20%;
-margin-bottom: 5%;
+        float: left;
+        margin-left: 22%;
+        margin-bottom: 5%;
     }
     .project-two{
         float: right;
-        margin-right: 20%;
+        margin-right: 22%;
         margin-bottom: 5%;
     }
     .project-three{
         float: left;
         clear: both;
-        margin-left: 20%;
+        margin-left: 22%;
     }
     .project-four{
         float: right;
-        margin-right: 20%;
+        margin-right: 22%;
         margin-bottom: 5%;
     }
     .project-five{
         float: left;
-        margin-left: 20%;
+        margin-left: 22%;
         margin-bottom: 10%;
         clear: both;
     }
     .project-six{
         float: right;
-        margin-right: 20%;
+        margin-right: 22%;
         margin-bottom: 10%;
     }
- 
+    .card-body{
+        height: 350px;
+    }
 }
 
 @media (max-width:800px){
@@ -91,10 +93,6 @@ p, .list-group-item{
     padding-bottom: 20px;
 }
 
-.link-right{
-    text-align: right;
-}
-
 .list-group{
     text-align: center;
 }
@@ -131,4 +129,23 @@ p, .list-group-item{
     border-left: 0;
     border-right: 0;
     border-bottom: 0;
+}
+
+.card-link{
+    position: absolute;
+    bottom: 0;  
+    left: 0;
+    margin-left: 15%;
+    margin-right: 20%;
+    width: 30%;
+    margin-left: 60%;
+    padding-bottom: 5%;
+}
+
+.link-right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 15%;  
+    width: 30%;
 }
