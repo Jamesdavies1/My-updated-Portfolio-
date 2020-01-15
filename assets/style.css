@@ -80,6 +80,10 @@ p, .list-group-item{
     padding: 20px;
     background-image: url("./images/white_texture/white_texture.png");
 }
+:hover.mb-3, :hover.card{
+    border-color: yellowgreen;
+    border-width: 0.3ch;
+}
 
 .card-title, .card-subtitle, .card-link{
     text-align: center;
