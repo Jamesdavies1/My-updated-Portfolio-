@@ -85,6 +85,10 @@ p, .list-group-item{
     border-width: 0.3ch;
 }
 
+:hover.list-group-item{
+    cursor: zoom-in;
+}
+
 .card-title, .card-subtitle, .card-link{
     text-align: center;
 }
