@@ -1,4 +1,4 @@
-# Portfolio - Personal website
+# Portfolio - JamesDaviesDesign
 
 Here you will find my personal portfolio. 
 
