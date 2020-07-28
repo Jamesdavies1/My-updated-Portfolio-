@@ -2,9 +2,7 @@
     text-align: center;
 }
 
-img {
-    width: 33.3%;
-    margin-left: 33.3%;
-    height: 700px;
-    margin-top: 50px;
+.card {
+    margin: 0 auto;
+    border: none;
 }
